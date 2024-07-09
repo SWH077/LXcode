@@ -1,1 +1,5 @@
 LX1C code
+LS1C_ALL_ZigBee_RX LX1C芯片通过zigbee接收另外两个zigbee的数据并上传到云平台，还有电机pid调节算法 主机；
+LS1C_DHT11_SR_ZigBee_TX 温湿度检测+散热模块调节+zigbee发送 从机1；
+LS1C_Fire_Air_ZigBee_TX 火焰检测+空气污染量测量+zigbee发送 从机2；
+HUAWEIOTforESP8266Demo ESP8266将打包好的数据读取后发送到云平台。
